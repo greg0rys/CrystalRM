@@ -1,5 +1,4 @@
-''' mermaid
-
+```mermaid
 erDiagram
     CUSTOMER ||--o{ PROJECT : "has many"
     CUSTOMER ||--o{ PURCHASE : "has many"
@@ -28,7 +27,3 @@ erDiagram
         datetime created_at
         datetime updated_at
     }
-
-
-
-'''
